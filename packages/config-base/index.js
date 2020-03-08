@@ -5,7 +5,6 @@ var ERR = 2
 /* eslint-enable no-unused-vars */
 
 
-
 module.exports = {
 	env: {
 		es6: true,
@@ -29,9 +28,6 @@ module.exports = {
 
 
 
-//     extends: [
-//         'plugin:react/recommended',
-//     ],
 //     globals: {
 //         Atomics: 'readonly',
 //         SharedArrayBuffer: 'readonly',
@@ -44,14 +40,8 @@ module.exports = {
 //         ecmaVersion: 2018,
 //         sourceType: 'module',
 //     },
-//     plugins: ['react'],
 //     rules: {
 //         'no-unused-vars': OFF,
 //         'no-console': OFF,
-
-//         'react/jsx-indent': [ERR, 'tab'],
-//         'react/prop-types': OFF,
-//         'react/jsx-space-before-closing': ERR,
-//         'react/display-name': OFF,
 //     },
 // }
