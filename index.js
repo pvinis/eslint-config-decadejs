@@ -10,7 +10,7 @@ module.exports = {
 	env: {
 		es6: true,
 		node: true,
-	} ,
+	},
 	extends: [
 		'eslint:recommended',
 	],
@@ -23,6 +23,7 @@ module.exports = {
 		indent: [ERR, 'tab'],
 		'arrow-spacing': ERR,
 		'no-multi-spaces': [ERR, { 'ignoreEOLComments': true }], // has exceptions too, if needed
+		'comma-spacing': ERR,
 	},
 }
 
