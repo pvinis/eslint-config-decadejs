@@ -15,6 +15,9 @@ module.exports = {
 	},
 	extends: [
 		'eslint:recommended',
+		'plugin:import/errors',
+		'plugin:import/warnings',
+		'plugin:import/typescript',
 	],
 	rules: {
 		semi: [ERR, 'never'],
@@ -26,5 +29,17 @@ module.exports = {
 		'arrow-spacing': ERR,
 		'no-multi-spaces': [ERR, { 'ignoreEOLComments': true }], // has exceptions too, if needed
 		'comma-spacing': ERR,
+		'no-multiple-empty-lines': ERR,
+
+		// imports
+		'import/newline-after-import': [ERR, { count: 2 }],
+		'import/order': [ERR, {
+			groups: [
+				['builtin', 'external'],
+				'internal',
+				['sibling', 'parent', 'index'],
+			],
+			'newlines-between': 'always',
+		} ],
 	},
 }
