@@ -1,8 +1,8 @@
 {
   "name": "@decadejs/eslint-config-react",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "dependencies": {
-    "@decadejs/eslint-config-base": "^1.0.0"
+    "@decadejs/eslint-config-base": "^1.0.4"
   },
   "peerDependencies": {
     "eslint": "*",
