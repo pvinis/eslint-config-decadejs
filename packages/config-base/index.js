@@ -10,6 +10,9 @@ module.exports = {
 		es6: true,
 		node: true,
 	},
+	parserOptions: {
+		sourceType: 'module',
+	},
 	extends: [
 		'eslint:recommended',
 	],
@@ -25,23 +28,3 @@ module.exports = {
 		'comma-spacing': ERR,
 	},
 }
-
-
-
-//     globals: {
-//         Atomics: 'readonly',
-//         SharedArrayBuffer: 'readonly',
-//     },
-//     // parser: 'babel-eslint',
-//     parserOptions: {
-//         ecmaFeatures: {
-//             jsx: true,
-//         },
-//         ecmaVersion: 2018,
-//         sourceType: 'module',
-//     },
-//     rules: {
-//         'no-unused-vars': OFF,
-//         'no-console': OFF,
-//     },
-// }
