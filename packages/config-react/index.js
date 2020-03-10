@@ -8,37 +8,17 @@ var ERR = 2
 module.exports = {
 	plugins: ['react'],
 	extends: [
-					'plugin:react/recommended',
+		'@decadejs/eslint-config-base',
+		'plugin:react/recommended',
 	],
-     parserOptions: {
-         ecmaFeatures: {
-             jsx: true,
-         },
-         },
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true,
+		},
+	},
 	rules: {
+		'react/jsx-indent': [ERR, 'tab'],
+		'react/jsx-space-before-closing': ERR,
+		'react/display-name': OFF,
 	},
 }
-
-
-
-/// use base
-
-//     globals: {
-//         Atomics: 'readonly',
-//         SharedArrayBuffer: 'readonly',
-//     },
-//     // parser: 'babel-eslint',
-//     parserOptions: {
-//         ecmaVersion: 2018,
-//         sourceType: 'module',
-//     },
-//     rules: {
-//         'no-unused-vars': OFF,
-//         'no-console': OFF,
-
-//         'react/jsx-indent': [ERR, 'tab'],
-//         'react/prop-types': OFF,
-//         'react/jsx-space-before-closing': ERR,
-//         'react/display-name': OFF,
-//     },
-// }

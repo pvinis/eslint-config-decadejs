@@ -1,6 +1,8 @@
+import React from 'react'
+
 
 const A = () => {
-    <div>
+	<div>
 		<p>wow</p>
-		</div>
+	</div>
 }
