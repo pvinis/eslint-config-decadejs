@@ -10,6 +10,7 @@
     "eslint-plugin-import": "^2.20.1"
   },
   "main": "index.js",
+  "files": [],
   "author": {
     "name": "Pavlos Vinieratos",
     "email": "pvinis@gmail.com"
