@@ -16,6 +16,11 @@ module.exports = {
 			jsx: true,
 		},
 	},
+	settings: {
+		react: {
+			version: 'detect',
+		},
+	},
 	rules: {
 		'react/jsx-indent': [ERR, 'tab'],
 		'react/jsx-tag-spacing': ERR,
