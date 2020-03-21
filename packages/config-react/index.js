@@ -25,5 +25,6 @@ module.exports = {
 		'react/jsx-indent': [ERR, 'tab'],
 		'react/jsx-tag-spacing': ERR,
 		'react/display-name': OFF,
+		'react/prop-types': OFF,
 	},
 }
