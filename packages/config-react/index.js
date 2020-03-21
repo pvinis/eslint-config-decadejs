@@ -18,7 +18,7 @@ module.exports = {
 	},
 	rules: {
 		'react/jsx-indent': [ERR, 'tab'],
-		'react/jsx-space-before-closing': ERR,
+		'react/jsx-tag-spacing': ERR,
 		'react/display-name': OFF,
 	},
 }
