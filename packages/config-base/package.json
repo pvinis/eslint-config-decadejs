@@ -1,6 +1,6 @@
 {
   "name": "@decadejs/eslint-config-base",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "peerDependencies": {
     "eslint": "*",
     "eslint-plugin-import": "*"
